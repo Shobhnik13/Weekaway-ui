@@ -6,6 +6,7 @@ import Hero from './Components/Hero'
 import Activities from './Components/Activities'
 import Data from './Data'
 import Booking from './Components/Booking'
+import Gallery from './Components/Gallery'
 function App() {
   const [count, setCount] = useState(0)
   const activitiesArray=Data.map((item)=>{
@@ -25,6 +26,7 @@ function App() {
     {activitiesArray}
     </div>
     <Booking/>
+    <Gallery/>
     </div>
   )
 }
