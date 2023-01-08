@@ -5,7 +5,7 @@ const Activities = (props) => {
   return (
     <div className=''>
         <div className=' relative p-4'>
-            <h3 className='absolute text-2xl font-bold z-10 top-[65%] left-[40%] translate-x-[50%] translate-y-[50%]'>{props.activity}</h3>
+            <h3 className='absolute text-3xl font-bold z-10 top-[43%]  left-[10%] translate-x-[50%] translate-y-[50%]'>{props.activity}</h3>
             <img className='relative w-full h-full object-cover border-4 border-white shadow-lg' src={props.image} alt="" />
         </div>
     </div>

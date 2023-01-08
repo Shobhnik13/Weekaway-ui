@@ -19,7 +19,7 @@ const Topbar = () => {
                 <AiFillPhone size={20} className='mr-2 text-[var[--primary-dark]]'/>
                 <p className='text-sm text-gray-700'>1-888-9034-2137</p>
             </div>
-            <button>Get a free quote!!</button>
+            <button className='rounded-md'>Get a free quote!!</button>
         </div>
 
     </div>

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import Activities from './Components/Activities'
 import Data from './Data'
+import Booking from './Components/Booking'
 function App() {
   const [count, setCount] = useState(0)
   const activitiesArray=Data.map((item)=>{
@@ -23,6 +24,7 @@ function App() {
     <div className='max-w-[1200px] m-auto md:flex mt-[-45px] w-full '>
     {activitiesArray}
     </div>
+    <Booking/>
     </div>
   )
 }

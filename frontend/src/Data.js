@@ -1,18 +1,18 @@
-export const data=[
+const data=[
     {
     id:"1",
     activity:"Resorts",
-    image:"Hero_image"
+    image:"Res.jpg"
     },
     {
     id:"2",
     activity:"Cruises",
-    image:"Hero_image"    
+    image:"Cruises.jpg"    
 },
     {
     id:"3",
     activity:"Experiences",
-    image:"Hero_image"
+    image:"Experiences.jpg"
     }
 ]
-export default data
+export default data 
