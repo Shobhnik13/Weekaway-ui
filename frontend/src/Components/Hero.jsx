@@ -2,7 +2,7 @@ import React from 'react'
 import  Hero_image from '../assets/Hero_image.jpg'
 const Hero = () => {
   return (
-    <div className='w-full h-[90vh]'>
+    <div className='w-full h-[90vh]' id='home'>
         <img src={Hero_image} alt="" className='h-full w-full object-cover'/>
         <div className='max-w-[1200px] m-auto'>
             <div className='absolute text-white top-[40%] h-full flex flex-col p-4 lg:text-2xl max-w-[500px]'>

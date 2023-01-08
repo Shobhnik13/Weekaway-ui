@@ -8,7 +8,7 @@ import pic5 from '../assets/pic5.jpg'
 
 const Gallery = () => {
   return (
-    <div className='max-w-[1200px] m-auto w-full px-4 py-16'>
+    <div className='max-w-[1200px] m-auto w-full px-4 py-16' id='gallery'>
         <h2 className='text-center text-gray-700 p-4'>Gallery</h2>
         <div className='flex flex-col md:flex-row justify-between'>
             <div className='md:w-[40%] '>

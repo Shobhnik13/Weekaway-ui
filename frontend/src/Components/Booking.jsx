@@ -3,7 +3,7 @@ import React from 'react'
 const Booking = () => {
   return (
     // outermost div 
-    <div className='max-w-[1200px] m-auto w-full p-4'>
+    <div className='max-w-[1200px] m-auto w-full p-4' >
         <form action="" className='lg:flex lg:justify-between w-full items-center '>
             {/* div for  selection options */}
 

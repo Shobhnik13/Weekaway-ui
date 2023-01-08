@@ -7,6 +7,8 @@ import Activities from './Components/Activities'
 import Data from './Data'
 import Booking from './Components/Booking'
 import Gallery from './Components/Gallery'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 function App() {
   const [count, setCount] = useState(0)
   const activitiesArray=Data.map((item)=>{
@@ -27,6 +29,8 @@ function App() {
     </div>
     <Booking/>
     <Gallery/>
+    <Contact/>
+    <Footer/>
     </div>
   )
 }
